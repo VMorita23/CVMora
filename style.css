@@ -1,0 +1,187 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-image: url(https://i.pinimg.com/originals/db/cd/32/dbcd3231a24743ec7f935fd5c3138614.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: skyblue;
+}
+
+.transparent_container{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0px auto;
+    padding: 20px 60px;
+    width: 1200px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+
+main{
+    width: 1100px;
+    height: 260px;
+    background-color: #765ccc;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 0px 0px;
+    border: 8px white double;
+}
+
+main section{
+    position: absolute;
+}
+
+section img{
+    border: 10px white double;
+    border-radius: 0px 20px;
+    height: 180px;
+    width: 130px;
+    object-fit: cover;
+}
+
+.box{
+    border-radius: 15px;
+    border: 6px rgb(255, 213, 174) groove;
+    text-align: center;
+    width: 1200;
+    height: auto;
+    margin: 5px 0px 0px 170px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 239);
+}
+
+#resumen{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+nav{
+    width: 1100px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #41348b;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;;
+}
+
+#buttons{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#buttons li{
+    margin-right: 40px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color:  rgb(217, 217, 145);
+    font-family: 'Times New Roman', Times, serif;
+    transition: transform 0.3s ease;
+}
+
+#buttons li:hover {
+    transform: scale(1.1);
+  }
+
+h1{
+    color: rgb(59, 26, 160);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+h2{
+    color: chocolate;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 0px;
+    text-align: center
+}
+
+.destacar{
+    color:  rgb(209, 81, 170);
+    font-weight: bold;
+}
+
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(135, 87, 223);
+}
+
+ul{
+    list-style: circle;
+    padding-left: 20px;
+}
+
+ul li{
+    margin-bottom: 8px;
+}
+
+p{
+    text-align: justify;
+}
+.contact_info{
+    text-align: left;
+}
+
+#cuerpo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.leftbox{
+    width: 270px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #ded2ff;
+    border: #41348b solid 2px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px 40px;
+}
+
+
+.rightbox{
+    background-color: rgb(255, 255, 239);
+    width: 780px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 40px;
+    border: 6px rgb(255, 213, 174) double;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.infocard{
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 8px 40px;
+    margin-bottom: 10px
+}
+
+
+
+
+
