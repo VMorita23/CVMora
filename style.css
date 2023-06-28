@@ -44,11 +44,11 @@ main{
     border: 8px white double;
 }
 
-main section{
+.image-profile{
     position: absolute;
 }
 
-section img{
+.image-profile img{
     border: 10px white double;
     border-radius: 0px 20px;
     height: 180px;
@@ -68,7 +68,7 @@ section img{
     background-color: rgb(255, 255, 239);
 }
 
-#resumen{
+.profile-description{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
 }
